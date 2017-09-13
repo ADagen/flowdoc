@@ -1,0 +1,21 @@
+{
+  "name": "flowdoc",
+  "version": "0.0.0",
+  "description": "JsDoc for Flow types",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "parse": "node ./index.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "babel-eslint": "^8.0.0",
+    "doctrine": "^2.0.0",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb-flow": "^1.0.2",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-chai-expect": "^1.1.1",
+    "eslint-plugin-filenames": "^1.2.0",
+    "flow-parser": "^0.54.1"
+  }
+}
